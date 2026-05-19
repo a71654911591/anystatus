@@ -1,0 +1,14 @@
+services:
+  app:
+    build: .
+    container_name: tq-app
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    mem_limit: 128m
+    cpus: 0.5
+    read_only: true
+    tmpfs:
+      - /tmp
+    security_opt:
+      - no-new-privileges:true

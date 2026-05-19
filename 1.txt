@@ -1,0 +1,112 @@
+请求网址
+https://anyrouter.top/api/token/?p=0&size=10
+请求方法
+GET
+状态代码
+200 OK
+远程地址
+127.0.0.1:7890
+引荐来源网址政策
+strict-origin-when-cross-origin
+
+
+content-encoding
+gzip
+content-length
+478
+content-type
+application/json; charset=utf-8
+date
+Mon, 18 May 2026 07:23:32 GMT
+eagleid
+9b66d19717790890127562670e
+server
+ESA
+timing-allow-origin
+*
+vary
+Accept-Encoding
+via
+1.1 Caddy, ens-cache30.l2hk12[45,0,DP], ens-cache21.l2jp2[90,0,DP], ens-cache3.jp14[91,0,DP], ens-cache3.jp14[92,0]
+x-oneapi-request-id
+20260518152332792917775GmddFFvg
+x-site-cache-status
+DYNAMIC
+
+:authority
+anyrouter.top
+:method
+GET
+:path
+/api/token/?p=0&size=10
+:scheme
+https
+accept
+application/json, text/plain, */*
+accept-encoding
+gzip, deflate, br, zstd
+accept-language
+zh-CN,zh;q=0.9
+cache-control
+no-store
+cookie
+session=MTc3NzQ3NjUzMnxEWDhFQVFMX2dBQUJFQUVRQUFEXzVQLUFBQWNHYzNSeWFXNW5EQTBBQzI5aGRYUm9YM04wWVhSbEJuTjBjbWx1Wnd3T0FBeHFhWFZYUm1OYVFXbEJkVkVHYzNSeWFXNW5EQVFBQW1sa0EybHVkQVFGQVAwRXI4b0djM1J5YVc1bkRBb0FDSFZ6WlhKdVlXMWxCbk4wY21sdVp3d1FBQTVzYVc1MWVHUnZYekUxTXpVM01nWnpkSEpwYm1jTUJnQUVjbTlzWlFOcGJuUUVBZ0FDQm5OMGNtbHVad3dJQUFaemRHRjBkWE1EYVc1MEJBSUFBZ1p6ZEhKcGJtY01Cd0FGWjNKdmRYQUdjM1J5YVc1bkRBa0FCMlJsWm1GMWJIUUdjM1J5YVc1bkRBVUFBMkZtWmdaemRISnBibWNNQmdBRVJXNTVRZz09fGMsp-T_dyhwmBSjuppwv60r_rHJaVUTq9VfKg2M5aMW; acw_tc=9b66d1a117790873744754170efb62ac1af936ceed294c3fa892b2d478; cdn_sec_tc=9b66d1a117790873744754170efb62ac1af936ceed294c3fa892b2d478; acw_sc__v2=6a0ab80e1940411782f7cacccc2b38cd7f3cd1d6
+dnt
+1
+new-api-user
+153573
+pragma
+no-cache
+priority
+u=1, i
+referer
+https://anyrouter.top/console/token
+sec-ch-ua
+"Chromium";v="148", "Google Chrome";v="148", "Not/A)Brand";v="99"
+sec-ch-ua-mobile
+?0
+sec-ch-ua-platform
+"Windows"
+sec-fetch-dest
+empty
+sec-fetch-mode
+cors
+sec-fetch-site
+same-origin
+sec-gpc
+1
+user-agent
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
+
+
+
+
+
+
+//响应数据
+
+ "data": [
+        {
+            "id": 299975,
+            "user_id": 153573,
+            "key": "JUEecHP7LjsneMihE45kLrS4O****",
+            "status": 1,
+            "name": "my",
+            "created_time": 1776351518,
+            "accessed_time": 1778676889,
+            "expired_time": -1,
+            "remain_quota": -49102689,
+            "unlimited_quota": true,
+            "model_limits_enabled": false,
+            "model_limits": "",
+            "allow_ips": "",
+            "used_quota": 49602689,
+            "group": "",
+            "DeletedAt": null
+        }
+    ],
+    "message": "",
+    "success": true
+}
+
+
